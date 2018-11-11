@@ -253,3 +253,25 @@
     }
   }
 }
+
+
+.project-container {
+  margin-top: 50px;
+  .project {
+    margin-bottom: 50px;
+    .project-image {
+      float: left;
+      width: 229px;
+      height: 122px;
+      margin-right: 20px;
+      border: 1px solid #ccc;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+}
