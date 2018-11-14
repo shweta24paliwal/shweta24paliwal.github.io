@@ -1,0 +1,171 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	max-width: 1600px;
+	min-width: 960px;
+  	padding: 20px 20px 0px 20px;
+  	margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.center-align{
+	text-align: center;
+}
+.header-icon{
+	font-size: 18px;
+	margin-left: 10px;
+}
+.top-nav{
+	display: inline-block;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+.top-nav a{
+	margin-right: 90px;
+	color: #808080;
+	cursor: pointer;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.sofa-icon-img{
+	height: 40px;
+    width: 45px;
+}
+.my-cart-heading{
+	font-weight: 500;
+}	
+.col-1{
+	width:60%;
+	height: 290px;
+}
+.col-1 img{
+	float: left;
+	display: inline-block;
+	height: 290px;
+	width:44%;
+}
+.col-1 input{
+	border-radius: 10px;
+	width: 20px;
+}
+.title-font{
+	font-size: 16px;
+	color: #808080;
+	border-bottom: 1px solid #696969;
+}
+.font-lg{
+	color: #808080;
+	font-size: 16px;
+}
+.font-sm{
+	color: #808080;
+	font-size: 14px;
+}
+.col-2, .col-3, .col-4{
+	width: 13%;
+	height: 290px;
+}
+.qty-css{
+	border: 1px solid gray;
+	padding: 5px;
+	font-size: 8px;
+	color: #808080;
+	border-radius: 4px;
+	margin-left: 5px;
+}
+.cart-items{
+	border-bottom: 2px solid #696969;
+    border-top: 2px solid #696969;
+    padding: 20px;
+}
+.float-clear{
+	clear: both;
+}
+.subtotal-section{
+	width: 300px;
+	height: 250px;
+	margin-top: 20px;
+}
+
+.checkout-btn{
+	background-color: #1ad7cd;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.sofa-images{
+	width:20%;
+	height: 250px;
+}
+.footer{
+	background-color: #1ad7cd;
+	margin-top: 30px;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-email-input{
+	padding: 10px;
+	border: none;
+	width: 310px;
+	
+}
+.footer-email{
+	position: relative;
+}
+.footer-arrow{
+	position: absolute;
+	top: 10px;
+    right: 512px;
+	z-index: 1;
+}
+.social-media{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.social-media i{
+	border: 2px solid #fff;
+    border-radius: 100px;
+    margin-left: 20px;
+    width: 57px;
+    height: 54px;
+    cursor: pointer;
+    line-height: 54px;
+}
+.footer-nav{
+	margin-top: 20px;
+}
+.footer-nav a{
+	margin-right: 78px;
+	color: #fff;
+	cursor: pointer;
+}
+.footer-nav a:last-child {
+	margin-right: 0px;
+}
+
+
+.footer-arrow {
+	color: #808080;
+}
+
+
+.subtotal-breakup-ctn {
+	width: 300px;
+	padding: 0;
+}
+
+.subtotal-breakup-ctn li {
+	list-style: none;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
