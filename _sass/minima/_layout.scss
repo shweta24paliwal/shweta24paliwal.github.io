@@ -256,9 +256,15 @@
 
 
 .project-container {
-  margin-top: 50px;
+  margin-top: 10px;
+  clear: both;
   .project {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    width: 420px;
+    margin-right: 20px;
+    border: 1px solid #cccccc61;
+    padding: 10px;
+    float: left;
     .project-image {
       float: left;
       width: 229px;
